@@ -120,12 +120,20 @@ guitar = \relative c'' {
   \mark \default
   \eKey
 
-  R2.*8
+  e'4 e8 e4 e8
+  e4 d8 c4 h8
+  d4 d8 d4 d8
+  d8 e  f  e4.
+
+  c4 c8 c4 c8
+  c4 h8 a4 g8
+  g2.~
+  g4. r4.
 
   \mark \default
   \dKey
 
-  <a e' a cis e a>4.\arpeggio r4.
+  <a, e' a cis e a>4.\arpeggio r4.
   R2.
   <e h' e g h e>4.\arpeggio r4.
   R2.

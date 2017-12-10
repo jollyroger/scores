@@ -56,7 +56,7 @@ accordionTwo = \relative a'' {
     <gis e'>2.
     <g es'>2.
     <fis d'>2.
-  } \\ { s2.\p\< s2. s2.\> s2. s2.\< s2. s2.\> s2 s8. s16\! } \\ >>
+  } \\ { s2.\mp\< s2. s2.\> s2. s2.\< s2. s2.\> s2 s8. s16\! } \\ >>
 
   \mark \default
   \dKey
@@ -86,7 +86,7 @@ accordionTwo = \relative a'' {
   \eKey
 
   e8 a, cis e a, cis
-  e8 f, a <c e> f, a
+  <c e>8 f, a <c e> f, a
   <h d> g h <h d> g h
   <c e>8 g c <c e> d h
 
