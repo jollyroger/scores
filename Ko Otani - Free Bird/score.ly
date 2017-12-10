@@ -8,7 +8,7 @@
 \include "src/cello.ly"
 \include "src/guitar.ly"
 \include "src/piano.ly"
-\include "src/tambourine.ly"
+\include "src/percussion.ly"
 
 \score {
   \new Score {
@@ -64,8 +64,8 @@
 
       \new StaffGroup <<
         \new DrumStaff <<
-          \set Staff.instrumentName = #"Drums"
-          \removeWithTag #'score \tambourine
+          \set Staff.instrumentName = #"Percussion"
+          \removeWithTag #'score \percussion
         >>
       >>
     >>

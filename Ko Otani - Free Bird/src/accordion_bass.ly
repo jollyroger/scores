@@ -61,7 +61,15 @@ accordionBass = \relative c {
   \mark \default
   \cKey
 
-  R2.*8
+  d2.~
+  d2.
+  d2.~
+  d2.
+
+  d2.~
+  d2.
+  d2.~
+  d2.
 
   \mark \default
   \dKey

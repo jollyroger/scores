@@ -1,4 +1,4 @@
-tambourine = \drummode {
+percussion = \drummode {
   \defaultTempo
   \defaultTime
   \partial 4. r4.
