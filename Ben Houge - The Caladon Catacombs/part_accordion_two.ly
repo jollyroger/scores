@@ -1,5 +1,6 @@
 \include "src/header.ly"
 \include "src/settings.ly"
+\include "src/accordion.ly"
 \include "src/accordion_two.ly"
 
 \header {
