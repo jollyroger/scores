@@ -1,4 +1,4 @@
-accordionOneSolo = \relative c'' {
+violinOneSolo = \relative c'' {
 
   \defaultTempo
   \aTime
