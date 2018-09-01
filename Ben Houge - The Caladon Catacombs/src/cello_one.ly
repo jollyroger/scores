@@ -1,28 +1,31 @@
-celloOne = \relative c' {
+celloOne = \relative c {
 
   \defaultTempo
   \aTime
   \aKey
-  \clef tenor
+  \clef bass
 
   \tag #'part { \mark \default }
 
-  \repeat unfold 4 {c1}
-  \repeat unfold 4 {h1}
-  \repeat unfold 2 {b1}
-  b1\<
-  << {b1} {s2.. s8\!} >>
+  \repeat unfold 2 {\repeat unfold 4 {c8-. des8-.}}
+  \repeat unfold 2 {\repeat unfold 2 {c8-. des8-. c8-. es8-.}}
+
+  \repeat unfold 2 {\repeat unfold 4 {h8-. c8-.}}
+  \repeat unfold 2 {\repeat unfold 2 {h8-. c8-. h8-. d8-.}}
+  
+  \repeat unfold 2 {\repeat unfold 4 {b8-. ces8-.}}
+  b8-.\< ces8-. b8-. des8-. b8-. ces8-. b8-. des8-.
+  b8-. ces8-. b8-. des8-. c8-. b8-. as8-. g8-.\!
 
   \tag #'part { \mark \default }
   \bTime
-  \clef bass
 
-  f,8-.\mf f-. r f-. f-. f-. r f-. f-. f-. f-. f-.
+  f8-.\mf f-. r f-. f-. f-. r f-. f-. f-. f-. f-.
   f8-. f-. r f-. f-. f-. r f-. f-. f-. r f-.
   f8-. f-. r f-. f-. f-. r f-. f-. f-. f-. f-.
   as8-. as-. r as-. as-. as-. r as-. as-. as-. r as-.
-
   as8-. as-. r as-. as-. as-. r as-. as-. as-. as-. as-.
+
   d8-.\< d-. r d-. d-. d-. r d-. d-. d-. r d-.
   des8-. des-. r des-. b-. b-. r b-. c-. b-. as-.\! g-.
 
@@ -34,33 +37,27 @@ celloOne = \relative c' {
   \tag #'part { \mark \default }
 
   b4->\mp r4 r1
-  \clef tenor
-  c'4 b c es des b
-  ces8-. ces-. r ces-. ces-. ces-. r ces-. ces-. ces-. r ces-.
-  b4 as b des h as
-  a8-. a-. r a-. a-. a-. r a-. a-. a-. r a-.
-  gis4 fis gis h a fis
-  g8-.\< g-. r g-. g-. g-. r g-. g-. g-. r g-.
-  << {cis4 h ais gis ais2} {s1 s4\! s4\f} >>
+  f'4 c8-. f8-. as4 as,8-. c8-. f4 des8-. f8-.
+  as,4-> r4 r1
+  es'4 b8-. es8-. ges4 ges,8-. b8-. es4 ces8-. es8-.
+  fis,4-> r4 r1
+  cis'4 gis8-. cis8-. e4 e,8-. gis8-. cis4 a8-. cis-.
+  e4->\< r4 r4 g,8-. h8-. e4 h8-. g8-.
+  fis8-. fis-. r fis-. fis-. fis-. r fis-. fis-.\! fis-. r\f fis-.
 
   \tag #'part {\mark \default}
   \bKey
 
-  h4-> r8 h8-.\p h-. h-. r h-. h-. h-. r h-.
-  h8-. h-. r h-. h-. h-. r h-. h-. h-. h-. h-.
-  h8-. h-. r h-. h-. h-. r h-. h-. h-. r h-.
-  h8-. h-. r h-. h-. h-. r h-. h-. h-. h-. h-.
-  gis8\mp-. gis-. r gis-. gis-. gis-. r gis-. gis-. gis-. r gis-.
-  gis8-. gis-. r gis-. gis-. gis-. r gis-. gis-. gis-. gis-. gis-.
+  h4-> r4 r1
+  R1.*5
 
-  \clef bass
-  f,8-. f-. r f-. f-. f-. r f-. f-. f-. f-. f-.
+  f'8-. f-. r f-. f-. f-. r f-. f-. f-. f-. f-.
   f8-. f-. r f-. f-. f-. r f-. f-. f-. r f-.
   f8-. f-. r f-. f-. f-. r f-. f-. f-. f-. f-.
   d8-.\mf d-. r d-. d-. d-. r d-. d-. d-. r d-.
   d8-. d-. r d-. d-. d-. r d-. d-. d-. d-. d-.
   d8-.\< d-. r d-. d-. d-. r d-. d-. d-. r d-.
-  cis'8-. cis8-. r8 cis8-. cis4 h4 ais8-. ais8-. ais8-.\! ais8-.
+  cis8-. cis8-. r8 cis8-. cis4 h4 ais8-. ais8-. ais8-.\! ais8-.
 
   \tag #'part {\mark \default}
 
@@ -76,20 +73,21 @@ celloOne = \relative c' {
   \tag #'part {\mark \default}
   \aKey
   \aTime
-  \clef tenor
 
-  c'1
-  \repeat unfold 3 {c1}
-  \repeat unfold 4 {h1}
-  \repeat unfold 2 {b1}
-  b1\<
-  << {b1} {s2.. s8\!} >>
+  \repeat unfold 2 {\repeat unfold 4 {c8-. des8-.}}
+  \repeat unfold 2 {\repeat unfold 2 {c8-. des8-. c8-. es8-.}}
+
+  \repeat unfold 2 {\repeat unfold 4 {h8-. c8-.}}
+  \repeat unfold 2 {\repeat unfold 2 {h8-. c8-. h8-. d8-.}}
+  
+  \repeat unfold 2 {\repeat unfold 4 {b8-. ces8-.}}
+  b8-.\< ces8-. b8-. des8-. b8-. ces8-. b8-. des8-.
+  b8-. ces8-. b8-. des8-. c8-. b8-. as8-. g8-.\!
 
   \tag #'part {\mark \default}
   \bTime
-  \clef bass
 
-  << f,1.\mf {s4 s1\> s4}>>
+  << f1.\mf {s4 s1\> s4}>>
   << { f2 des'2 c2 } {s1 s4 s4\!} >>
   << f,1.\mf {s4 s1\> s4}>>
   << { f2 des'2 c2 } {s1 s4 s4\!} >>
