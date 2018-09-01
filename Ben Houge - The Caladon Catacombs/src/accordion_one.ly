@@ -1,4 +1,4 @@
-accordionTwoSolo = \relative c'' {
+accordionOneSolo = \relative c'' {
 
   \defaultTempo
   \aTime
