@@ -1,13 +1,15 @@
 \include "src/header.ly"
 #(set-global-staff-size 15)
 \include "src/settings.ly"
+
 \include "src/violin_one.ly"
-\include "src/accordion_one.ly"
 \include "src/violin_two.ly"
-\include "src/accordion_two.ly"
 \include "src/viola.ly"
-\include "src/guitar.ly"
 \include "src/cello.ly"
+
+\include "src/accordion_one.ly"
+\include "src/accordion_two.ly"
+\include "src/guitar.ly"
 
 \score {
   \new Score {
