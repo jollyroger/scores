@@ -12,7 +12,7 @@
   <<
     \new Staff <<
       \set Staff.midiInstrument = "violin"
-      \keepWithTag #'part \violinOneSolo
+      \keepWithTag #'part \violinOne
     >>
   >>
   }
