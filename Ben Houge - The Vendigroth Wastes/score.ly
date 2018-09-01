@@ -3,10 +3,9 @@
 \include "src/settings.ly"
 
 \include "src/violin_one.ly"
-\include "src/violin_two.ly"
-\include "src/viola.ly"
-\include "src/cello.ly"
+\include "src/cello_one.ly"
 
+\include "src/accordion.ly"
 \include "src/accordion_one.ly"
 \include "src/accordion_two.ly"
 \include "src/guitar.ly"
@@ -38,13 +37,13 @@
         \new Staff <<
           \set Staff.midiInstrument = "violin"
           \set Staff.instrumentName = #"Violin"
-          \removeWithTag #'part \violinTwoSolo
+          \removeWithTag #'part \violinOneSolo
         >>
 
         \new Staff <<
           \set Staff.midiInstrument = "cello"
           \set Staff.instrumentName = #"Cello"
-          \removeWithTag #'part \celloSolo
+          \removeWithTag #'part \celloOneSolo
         >>
       >>
     >>

@@ -1,10 +1,9 @@
 \include "src/header.ly"
 \include "src/settings.ly"
-\include "src/cello.ly"
-\include "src/cello_two.ly"
+\include "src/violin_one.ly"
 
 \header {
-    instrument = "Cello 2"
+  instrument = "Violin 1"
 }
 
 \score {
@@ -12,8 +11,8 @@
   \set Score.markFormatter = #format-mark-box-numbers
   <<
     \new Staff <<
-      \set Staff.midiInstrument = "cello"
-      \removeWithTag #'score \transpose a' a \celloTwoSolo
+      \set Staff.midiInstrument = "violin"
+      \keepWithTag #'part \violinOneSolo
     >>
   >>
   }
