@@ -1,4 +1,4 @@
-celloSolo =  \relative b {
+celloSolo =  \relative b, {
   \aTime
   \aKey
   \clef bass

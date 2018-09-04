@@ -12,7 +12,7 @@
   <<
     \new Staff <<
       \set Staff.midiInstrument = "cello"
-      \removeWithTag #'score \transpose a' a \celloSolo
+      \removeWithTag #'score \celloSolo
     >>
   >>
   }
