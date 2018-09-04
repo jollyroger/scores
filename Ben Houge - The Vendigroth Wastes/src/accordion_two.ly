@@ -62,12 +62,12 @@ accordionTwoSolo = \relative e' {
     bes4. ~ \times 3/2 { bes8 [ des8 ] } des4. c4. | % 38
     des2. c4. bes4.  | % 39
     as4. ~ \times 3/2 { as8 [ bes8 ] } c4. des4. | \barNumberCheck #40
-    c2. c4. des4. | % 41
+    << { g4. f4. es4. f4. } \\ { c2. c4. des4.} >>| % 41
     
     d2. cis2.  | % 42
     d2. e4. d4. | % 43
-    cis4. ~ \times 3/2 { cis8 [ b8 ] } a2. ~ | % 44
-    a1.  | % 45
+    << { s1. | e4. d4. cis2. } \\ 
+       {cis4. ~ \times 3/2 { cis8 [ b8 ] } a2. ~ a1.} >> | % 45
 
   \tag #'part {\mark \default}
 
